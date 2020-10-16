@@ -1,0 +1,93 @@
+Try to find class in jar
+file:jarWithClasses.jar!/packageone/ClassOne.class
+ClasOne was found and created
+Hello, Java, from ClassOne
+ClassTwo was found and created
+ClassTwo(withoutParam):Hello, Java, from ClassOne
+ClassTwo(withParam):Hello, Java, from ClassOne
+__________CLASS PACKAGEMAIN.MAINCLASS__________
+ClassLoader: app
+Methods:
+    void main
+        no throwing exceptions
+        params types:
+            [Ljava.lang.String;
+    void wait
+        throwing exceptions:
+            java.lang.InterruptedException
+        params types:
+            long
+    void wait
+        throwing exceptions:
+            java.lang.InterruptedException
+        params types:
+            long
+            int
+    void wait
+        throwing exceptions:
+            java.lang.InterruptedException
+        no params
+    boolean equals
+        no throwing exceptions
+        params types:
+            java.lang.Object
+    java.lang.String toString
+        no throwing exceptions
+        no params
+    int hashCode
+        no throwing exceptions
+        no params
+    java.lang.Class getClass
+        no throwing exceptions
+        no params
+    void notify
+        no throwing exceptions
+        no params
+    void notifyAll
+        no throwing exceptions
+        no params
+Fields:
+    class java.lang.reflect.Field clFirst
+    class java.lang.reflect.Field clSecond
+Parent:
+java.lang.Object
+__________CLASS JAVA.LANG.OBJECT__________
+ClassLoader: MACHINE GOD
+Methods:
+    void wait
+        throwing exceptions:
+            java.lang.InterruptedException
+        params types:
+            long
+    void wait
+        throwing exceptions:
+            java.lang.InterruptedException
+        params types:
+            long
+            int
+    void wait
+        throwing exceptions:
+            java.lang.InterruptedException
+        no params
+    boolean equals
+        no throwing exceptions
+        params types:
+            java.lang.Object
+    java.lang.String toString
+        no throwing exceptions
+        no params
+    int hashCode
+        no throwing exceptions
+        no params
+    java.lang.Class getClass
+        no throwing exceptions
+        no params
+    void notify
+        no throwing exceptions
+        no params
+    void notifyAll
+        no throwing exceptions
+        no params
+No fields
+Parent:
+NONE
